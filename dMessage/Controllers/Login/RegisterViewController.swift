@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  dMessage
 //
 //  Created by Dhruba Chakraborty on 11/4/22.
@@ -7,10 +7,12 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = .red
 
         // Do any additional setup after loading the view.
     }
